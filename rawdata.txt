@@ -1,0 +1,34 @@
+register
+{
+    "username": "knovatordemo",
+    "password": "knovatordemo",
+    "email": "knovatordemo123@gmail.com"
+}
+
+login
+{
+    "username": "knovatordemo",
+    "password": "knovatordemo"
+}
+
+
+post
+{
+    "title": "Trip to the Mountains",
+    "body": "Had an amazing time hiking in the mountains!",
+    "geolocation": {
+        "type": "Point",
+        "coordinates": [45.6789, -67.8901]
+    }
+}
+
+update post
+
+{
+    "title": "update Trip to the Mountains",
+    "body": "update Had an amazing time hiking in the mountains!",
+    "geolocation": {
+        "type": "Point",
+        "coordinates": [49.6789, -67.0904]
+    }
+}
